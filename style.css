@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(rgb(240, 240, 240) 80%, rgb(170, 170, 170),rgb(51, 51, 51))
+}
+
+.navbar{
+    background-color: #750505;
+    color:aliceblue;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 25px;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.nav-link{
+    color:white;
+}
+
+.Banner-Text {
+    text-align-last: center;
+    background-color:rgb(20, 122, 122);
+    color:rgb(211, 209, 209); 
+    font-size: 25;
+}
+
+.Design-Carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+.Form_Container{
+    background-color:rgba(204, 204, 204, 0.959);
+    width: 65%;
+    color:black;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.Form_Container h1{
+    text-align: center;
+}
+.form-row {
+    display:flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: center;
+}
+.form-label-col {
+    width: 100px;
+}
+.form-input-col {
+    width:auto;
+    display:flex;
+    justify-content: right;
+    width: 70%
+}
+.Form_Container input{
+    width:100%;
+}
+.Form_Container textarea{
+    width:100%;
+}

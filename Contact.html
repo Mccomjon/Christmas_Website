@@ -27,38 +27,48 @@
               </ul>
             </div>
         </nav>
-        
-          <div class="Christmas-Statement">
-            <h1>The Christmas Spirit</h1>
-            <p>A year of joy, love, and warmth.</p>
-          </div>
 
-          <div class="Banner-Text">
-            <p>Explore</p>
-          </div>
-
-
-        <div id="Inside-Outside-Carousel" class="carousel slide Design-Carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="ChristmasDecorations.html">
-                        <img src="Indoor_Carousel_Image.jpg" class="d-block w-100" alt="Indoor">
-                    </a>
+        <form action="#" method="GET">
+            <div class="Form_Container">
+                <h1>Contact</h1>
+                <div class = "form-row">
+                    <div class = "form-label-col">
+                        <label for="fname">First Name:</label>
+                    </div>
+                    <div class = "form-input-col">
+                        <input type="text" required id="fname">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <a href="ChristmasDecorations.html">
-                        <img src="Outdoor_Carousel_Image.jpg" class="d-block w-100" alt="Outdoor">
-                    </a>
+                <div class = "form-row">
+                    <div class = "form-label-col">
+                        <label for="lname">Last Name:</label>
+                    </div>
+                    <div class = "form-input-col">
+                        <input type="text" id="lname">
+                    </div>
+                </div>
+                <div class = "form-row">
+                    <div class = "form-label-col">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class = "form-input-col">
+                        <input type="email" required id="email">
+                    </div>
+                </div>
+                <div class = "form-row">
+                    <div class = "form-label-col">
+                        <label for="message">Message:</label>
+                    </div>
+                    <div class = "form-input-col">
+                        <textarea id="message" rows="3" required></textarea>
+                    </div>
+                </div>
+                <div class = "form-row">
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#Inside-Outside-Carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden"></span>                </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#Inside-Outside-Carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden"></span>
-            </button>
-        </div>
+        </form>          
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
