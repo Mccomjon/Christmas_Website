@@ -56,6 +56,10 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
 
 #Indoor, #Outdoor{
     margin-bottom:12px;
