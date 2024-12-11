@@ -1,4 +1,4 @@
-https://mccomjon.github.io/Christmas_Website/ChristmasWebsite.html
+https://mccomjon.github.io/Christmas_Website/Index.html
 
 Jonathan McCombs
 ##
